@@ -153,15 +153,15 @@ $
 				'pc':
 				{
 					'rotationY': 0,
-					'positionX': 0,
-					'cameraZ': 35,
+					'positionX': 5,
+					'cameraZ': 30,
 					'cameraY': 13
 				},
 				'sp':
 				{
 					'rotationY': 0,
-					'positionX': -1,
-					'cameraZ': 35,
+					'positionX': 5,
+					'cameraZ': 30,
 					'cameraY': 13
 				},
 				'isHidden': false
@@ -511,7 +511,7 @@ $
 			var camera = new THREE.PerspectiveCamera
 			(
 				45,
-				633/913,
+				720/1080,
 				0.1,
 				1000
 			);
@@ -524,8 +524,8 @@ $
 			renderer.setPixelRatio(window.devicePixelRatio);
 			renderer.setSize
 			(
-				633,
-				913
+				720,
+				1080
 			);
 			
 			
